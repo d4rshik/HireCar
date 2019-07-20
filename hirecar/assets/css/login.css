@@ -42,3 +42,8 @@ body {
     margin-right: auto;
 }
 
+#login p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
