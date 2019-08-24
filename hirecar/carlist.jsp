@@ -96,27 +96,27 @@
                     <h6>PRICE RANGE</h6>
                     <div class="custom-control custom-radio">
                         <input type="radio" class="custom-control-input" name="radoption" id="rad1">
-                        <label class="custom-control-label" for="rad1">0-1000</label>
+                        <label class="custom-control-label" for="rad1"><i class="rupee icon"></i>0-2000</label>
                     </div>
                     <div class="custom-control custom-radio">
                         <input type="radio" class="custom-control-input" name="radoption" id="rad2">
-                        <label class="custom-control-label" for="rad2">1001-2000</label>
+                        <label class="custom-control-label" for="rad2"><i class="rupee icon"></i>2001-5000</label>
                     </div>
                     <div class="custom-control custom-radio">
                         <input type="radio" class="custom-control-input" name="radoption" id="rad3">
-                        <label class="custom-control-label" for="rad3">2001-3000</label>
+                        <label class="custom-control-label" for="rad3"><i class="rupee icon"></i>5001-10000</label>
                     </div>
                     <div class="custom-control custom-radio">
                         <input type="radio" class="custom-control-input" name="radoption" id="rad4">
-                        <label class="custom-control-label" for="rad4">3001-4000</label>
+                        <label class="custom-control-label" for="rad4"><i class="rupee icon"></i>10001-15000</label>
                     </div>
                     <div class="custom-control custom-radio">
                         <input type="radio" class="custom-control-input" name="radoption" id="rad5">
-                        <label class="custom-control-label" for="rad5">4001-5000</label>
+                        <label class="custom-control-label" for="rad5"><i class="rupee icon"></i>15001-25000</label>
                     </div>
                     <div class="custom-control custom-radio">
                         <input type="radio" class="custom-control-input" name="radoption" id="rad6">
-                        <label class="custom-control-label" for="rad6">500 above</label>
+                        <label class="custom-control-label" for="rad6"><i class="rupee icon"></i>25000 above</label>
                     </div>
                     <hr>
                     <button class="btn btn-primary" type="submit">APPLY FILTERS</button>

@@ -17,7 +17,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.jsp" style="color:lightgreen;">HOME</a>
+          <a class="nav-item nav-link active" href="index.jsp" style="color:limegreen;">HOME</a>
           <a class="nav-item nav-link" href="#">CAR PROVIDERS</a>
           <a class="nav-item nav-link" href="#">SIGNUP</a>
           <a class="nav-item nav-link" href="login.jsp">LOGIN</a>
@@ -54,18 +54,8 @@
               <option value="2">Two</option>
               <option value="3">Three</option>
             </select>
-            <select class="custom-select" id="inputGroupSelect01">
-              <option selected>PICK DATE</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <select class="custom-select" id="inputGroupSelect01">
-              <option selected>RETURN DATE</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
+            <input class="custom-select" type="text" onfocus="(this.type='date')" name="" placeholder="PICK UP DATE" id="inputGroupSelect01">
+            <input class="custom-select" type="text" onfocus="(this.type='date')" name="" placeholder="RETURN DATE" id="inputGroupSelect01">
             <select class="custom-select" id="inputGroupSelect01">
               <option selected>CAR TYPE</option>
               <option value="1">One</option>
