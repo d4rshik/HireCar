@@ -5,7 +5,7 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
 
 #highlight h2 {
-    color: hsl(120, 73%, 75%);
+    color: limegreen;
     font-weight: bold;
     font-size: 55px;
     font-family: 'Varela Round', sans-serif;

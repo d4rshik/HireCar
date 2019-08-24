@@ -17,7 +17,7 @@ body {
 }
 
 .navbar > a > span {
-    color: lightgreen;
+    color: limegreen;
 }
 
 .navbar > div > div > a {
@@ -63,7 +63,7 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
 
 #highlight h1 {
-    color: lightgreen;
+    color: limegreen;
     font-weight: bold;
     font-size: 65px;
     font-family: 'Varela Round', sans-serif;
