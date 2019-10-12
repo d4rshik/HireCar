@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px 80px;
+}
+.navbar a {
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.navbar > a > span {
+    color: limegreen;
+}
+
+.navbar > div > div > a {
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+#wrapper {
+    position: absolute;
+    padding-top: 110px;
+    height: 100%;
+}
+
+
+#sidebar {
+    position: fixed;
+    overflow-y: scroll; 
+    padding-left: 70px;
+    height: 535px;
+    padding-bottom: 100px;
+}
+
+#gridview {
+    margin-left: auto;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+
+#gridview .card {
+    border-radius: 5px;
+}
+
+#gridview .card:hover {
+    border: 1px solid GREY;
+    cursor: pointer;
+}
+
+#premium {
+    z-index: 999;
+    position: absolute;
+    border-radius: 3spx;
+    height: 25px;
+    margin-left: -10px;
+    margin-top: -10px;
+    background: limegreen;
+    font-size: 15px;
+    padding-top: 5px;
+    color: white;
+}
+
+#gridview .card .container-fluid{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* background: url('../icon/zoom.png') center/cover; */
+    padding: 0px 0px;
+}
+
+#gridview .card img {
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 1;
+    filter: grayscale(0) brightness(1);
+    transition: filter 0.3s, opacity 0.3s;
+}
+
+#gridview .card img:hover {
+    opacity: 1;
+    cursor: pointer;
+    filter: grayscale(0) brightness(0.6) contrast(1.2);
+    transition: filter 0.3s, opacity 0.3s;
+}
+
+#sidebar .custom-control label {
+    font-size: 15px;
+    color: grey;
+}
+
+#sidebar button {
+    border-radius: 0px;
+}
+
+#bookform .custom-select {
+    height: 45px;
+    padding: 10px 15px;
+    margin: 5px 5px 5px 5px;
+    background: none;
+    color: black;
+    border-radius: 0px;
+}
+
+#bookform option {
+    background: white;
+    color: black;
+}
+
+#bookform button {
+    margin: 5px 5px 5px 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px;
+    height: 45px;
+    color: white;
+}
+
+#gridview .card .row {
+    padding: 0px 17px;
+}
+
+#gridview .card i {
+    color: grey;
+}
+
+#head span {
+    float: right;
+    font-size: 15px;
+    color: gold;
+}
